@@ -1,7 +1,9 @@
 #from django.shortcuts import render 사용 안하구요
 from rest_framework import viewsets
+from .models import Album, Files
 from .models import Essay
 from .serializers import EssaySerializer
+from .serializers import AlbumSerializer, FileSerializer
 # Create your views here.
 from rest_framework.filters import SearchFilter
 
@@ -31,4 +33,14 @@ class PostViewSet(viewsets.ModelViewSet):
             qs = qs.none() # 로그아웃이 되어 있다면
 
         return qs
+
+class ImageViewSet(viewsets.ModelViewSet):
+    queryset = Album.objects.all() # 모델에서 쿼리셋
+    serializer_class = AlbumSerializer
+    pass
+
+class FileViewSet(viewsets.ModelViewSet):
+    queryset = Files.objects.all() # 모델에서 쿼리셋
+    serializer_class = FileSerializer
+    pass
 
