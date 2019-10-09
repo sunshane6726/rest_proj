@@ -23,8 +23,8 @@ class AlbumSerializer(serializers.ModelSerializer):
 class FileSerializer(serializers.ModelSerializer):
     
     author_name = serializers.ReadOnlyField(source = 'author.username')
-    myfiles = serializers.FileField(use_url=True) # 똑같이 url로 확인해 보겠다.
+    myfile = serializers.FileField(use_url=True) # 똑같이 url로 확인해 보겠다.
 
     class Meta:
-        model = Album
-        fields = ('pk', 'author_name', 'files', 'desc')
+        model = Files
+        fields = ('pk', 'author_name', 'myfile', 'desc')
