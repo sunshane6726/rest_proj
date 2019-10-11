@@ -51,14 +51,19 @@
 [Create React App documentation](http://localhost:8000) # 하이퍼링크 및 지정 주소를 적어 주어야한다.
 
 
-### Desktop
+### Edit
 
-<img src="#" alt="no" width="800">
+<img src="demo_test/proj1.png" alt= "no" width="300">
 
-### Mobile
+### Image
 
-<img src="#" alt="no" width="300">
+<img src="demo_test/proj2.png" alt="no" width="300">
 
+### File
+
+<img src="demo_test/proj2.png" alt="no" width="300">
+
+2019년 10월 11일 이미지 추가
 
 ===================
 
