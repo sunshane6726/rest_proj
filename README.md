@@ -2,23 +2,23 @@
 
 ##### rest_proj_ 실습확인하기 
 
-
 ![badge](https://img.shields.io/github/repo-size/sunshane6726/rest_proj) ![badge](https://img.shields.io/github/last-commit/sunshane6726/rest_proj) ![badge](https://img.shields.io/github/stars/sunshane6726/rest_proj) ![badge](https://img.shields.io/github/watchers/sunshane6726/rest_proj)
 
-## [이동욱](https://github.com/sunshane6726/rest_test)
+## [이동욱](https://github.com/sunshane6726/rest_proj)
 
 ## [ [Facebook](https://www.facebook.com/profile.php?id=100003563139328) ] [ [Github](https://github.com/sunshane6726) ] [ [LinkedIn](#) ] [ [Blog](https://github.com/sunshane6726/rest_proj) ]<br/>
 
 ## 개요
 
 **rest_framework**를 사용해 구현한 **rest_framework blog** 소개 홈페이지 입니다.<br>
-`PR`과 `ISSUE`는 언제나 환영입니다. ⭐️는 더 환영입니다. 😀😀😀
+`PR`과 `ISSUE`는 잘 부탁드리겠습니다.
 
 ======================
 
+
 ## Page Link
 
-#### [바로가기](https://github.com/sunshane6726/rest_test)
+#### [바로가기](https://github.com/sunshane6726/rest_proj)
 
 ### `python interpreter 3.7.3 32bit using`
 
@@ -102,3 +102,9 @@
 #### 새로운 실습 예제 복습하기 
 
 2019년 10월 09일 rest_framework, serializer 예제복습하기
+=======
+2019년 10월 09일 입니다.
+
+##### rest_proj_ 실습
+
+2019년 10월 09일 오늘 setting.py 없는것 확인하기
