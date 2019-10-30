@@ -53,7 +53,7 @@
 
 ### Edit
 
-<img src="demo_test/proj1.png" alt= "no" width="300">
+<img src="demo_test/proj1.png" alt= "no">
 
 ### Image
 
@@ -107,9 +107,19 @@
 #### 새로운 실습 예제 복습하기 
 
 2019년 10월 09일 rest_framework, serializer 예제복습하기
+
 =======
+
 2019년 10월 09일 입니다.
 
 ##### rest_proj_ 실습
 
 2019년 10월 09일 오늘 setting.py 없는것 확인하기
+
+================================
+
+##### rest_proj 수정하기 제출하기
+
+2019년 10월 31일 마지막 수정하기 
+
+Weather 추가 및 계정 수정하기

@@ -25,7 +25,7 @@ SECRET_KEY = '^*@vx_i8gb#7#21rtyc^w4m98d12cxc-o*#(d&-&d+wk)wzp0s'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -38,7 +38,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
+    'userstorage',
     'mystorage',
+    
+    'rest_framework.authtoken'
 ]
 
 MIDDLEWARE = [
@@ -124,3 +127,19 @@ STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
 
 MEDIA_ROOT = os.path.join(BASE_DIR,'media')
+
+# FILTERING_REST_FRAMEWORK
+# rest_framework 설장값을 해결 해줄껀데 특히나 pagination 을 사용할꺼야 
+REST_FRAMEWORK = {
+    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination', # setting.py rest_framework 설정값들을 키값으로 설정해놓으시면 됩니다.
+    'PAGE_SIZE': 5, # 전역으로 설정해준값이다. default
+
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'rest_framework.authentication.BasicAuthentication',
+        'rest_framework.authentication.SessionAuthentication',
+    ],
+
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.IsAuthenticated',
+    ],
+}
